@@ -1,0 +1,41 @@
+.layout__main-one {
+    padding: 1rem;
+}
+
+.main__one {
+    height: 45vh;
+    margin-bottom: 2rem;
+    border: var(--elementBorder);
+}
+
+.main__one--two {
+    gap: 5rem;
+    height: 45vh;
+    display: grid;
+    /* border: var(--elementBorder); */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.one__two--1 {
+    text-align: center;
+    line-height: 42vh;
+    border: var(--elementBorder);
+}
+
+.one__two--2 {
+    text-align: center;
+    line-height: 42vh;
+    border: var(--elementBorder);
+}
+
+.one__two--1 p {
+    font-size: 3rem;
+    text-decoration: none;
+    color: var(--grayColor);
+}
+
+.one__two--2 p {
+    font-size: 3rem;
+    text-decoration: none;
+    color: var(--grayColor);
+}

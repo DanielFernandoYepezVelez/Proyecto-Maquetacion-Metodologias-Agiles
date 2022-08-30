@@ -1,0 +1,51 @@
+.layout__sidebar {
+    width: 250px;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    /* height: 99.7vh; */
+    flex-direction: column;
+    justify-content: space-between;
+    border: var(--elementBorder);
+}
+
+.sidebar__logo {
+    width: 90%;
+    height: 150px;
+    border: var(--elementBorder);
+}
+
+.sidebar__logo p {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 150px;
+    color: var(--grayColor);
+}
+
+.sidebar__links {
+    width: 80%;
+}
+
+.sidebar__links p {
+    padding: .5rem;
+    text-align: center;
+    border: var(--elementBorder);
+}
+
+.sidebar__links a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--grayColor);
+}
+
+.sidebar__social {
+    width: 80%;
+}
+
+.sidebar__social p {
+    padding: .5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--grayColor);
+    border: var(--elementBorder);
+}

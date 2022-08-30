@@ -1,0 +1,34 @@
+.main__four--title {
+    text-align: center;
+    line-height: 45vh;
+    color: var(--grayColor);
+}
+
+.main__four--title h1 {
+    line-height: 43vh;
+}
+
+.main__four--phrase {
+    gap: 3rem;
+    height: 45vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* border: var(--elementBorder); */
+    grid-template-columns: 450px 600px;
+}
+
+.main__four--form p input {
+    padding: .5rem;
+    width: 100%;
+}
+
+textarea {
+    padding: .5rem;
+    width: 100%;
+}
+
+.p__button .form__button p {
+    width: 30% !important;
+    text-align: end;
+}

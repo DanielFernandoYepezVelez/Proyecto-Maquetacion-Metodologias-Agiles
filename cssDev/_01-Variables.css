@@ -1,0 +1,10 @@
+:root {
+    --fuentePrincipal: 'Roboto', sans-serif;
+    --fuenteSecundaria: 'Fjalla One', sans-serif;
+    --colorPrimario: ;
+    --colorSecundario: ;
+    --colorClaro: #ffffff;
+    --colorOscuro: #000000;
+    --grayColor: #8a8a8a;
+    --elementBorder: 1px solid rgb(128, 128, 128);
+}

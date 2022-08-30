@@ -1,0 +1,36 @@
+.layout__main--two {
+    padding: 1rem;
+    display: grid;
+    gap: 6rem;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.two__lorem--1 {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: var(--elementBorder);
+    justify-content: space-around;
+}
+
+.two__lorem--1 p {
+    font-size: 3rem;
+    text-decoration: none;
+    color: var(--grayColor);
+}
+
+.two__lorem--1 div {
+    width: 50%;
+    padding: 1.5rem;
+    text-align: center;
+    border: var(--elementBorder);
+}
+
+.two__lorem--1 a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--grayColor);
+}

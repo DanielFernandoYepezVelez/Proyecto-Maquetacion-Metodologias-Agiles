@@ -1,0 +1,21 @@
+/** LAYOUT LOGINT */
+
+.layout__login {
+    gap: 5rem;
+    display: grid;
+    height: 99.7vh;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    /* border: var(--elementBorder); */
+    grid-template-columns: repeat(2, 550px);
+}
+
+.layout__global {
+    display: grid;
+    height: 99.7vh;
+    /* border: 1px solid red; */
+    /* grid-template-columns: 400px auto; */
+    grid-template-columns: 250px auto;
+}

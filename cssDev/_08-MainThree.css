@@ -1,0 +1,38 @@
+.layout__main--three {
+    gap: 1rem;
+    padding: 1rem;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 500px);
+}
+
+.three__one {
+    height: 95vh;
+    padding: 1rem;
+    padding-top: 5rem;
+    border: var(--elementBorder);
+}
+
+.three__one h2 {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    color: var(--grayColor);
+}
+
+.three__one--descripcion {
+    display: flex;
+    justify-content: center;
+}
+
+.three__one--descripcion p {
+    padding: 3rem;
+    font-size: 2rem;
+    color: var(--grayColor);
+    border: var(--elementBorder);
+}
+
+.descripcion__text {
+    margin-right: 1rem;
+}
